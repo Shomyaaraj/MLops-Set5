@@ -1,0 +1,61 @@
+{
+  "dataset": "water_tank_v2.csv",
+  "dataset_version": "v2",
+  "selected_model": "Decision Tree",
+  "test_size": 0.2,
+  "random_state": 42,
+  "features": [
+    "tank_level_8pm",
+    "households",
+    "avg_hourly_consumption",
+    "pumping_duration",
+    "pumping_rate",
+    "leakage_rate",
+    "day_type",
+    "expected_overnight_demand",
+    "expected_pump_supply",
+    "projected_water_buffer"
+  ],
+  "class_distribution_v1": {
+    "0": 227,
+    "1": 23
+  },
+  "class_distribution_v2": {
+    "0": 219,
+    "1": 31
+  },
+  "models": {
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          44,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          44,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  }
+}
